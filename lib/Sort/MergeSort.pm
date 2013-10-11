@@ -8,7 +8,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw(mergesort);
 
-our $VERSION = 0.3;
+our $VERSION = 0.31;
 
 our $max_array = 64;
 
@@ -149,4 +149,12 @@ L<Sort::MergeSort::Iterator> will do as input.
 =head1 SEE ALSO
 
 L<Sort::MergeSort::Iterator>
+
+=head1 LICENSE
+
+Copyright (C) 2008,2009 David Sharnoff.
+Copyright (C) 2013 Google, Inc.
+
+This package may be used and redistributed under the terms of either
+the Artistic 2.0 or LGPL 2.1 license.
 
